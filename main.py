@@ -68,15 +68,15 @@ def getGradePoint(letterGrade):
 def run():
  courselettergrade1=str(input("Enter your course 1 letter grade: "));
  coursecredit1=float(input("Enter your course 1 credit: "));
- print(f"Grade point for course 1 is: {getGradePoint(courselettergrade1)}.");
+ print(f"Grade point for course 1 is: {getGradePoint(courselettergrade1)}");
 
  courselettergrade2=str(input("Enter your course 2 letter grade: "));
  coursecredit2=float(input("Enter your course 2 credit: "));
- print(f"Grade point for course 2 is: {getGradePoint(courselettergrade2)}.");
+ print(f"Grade point for course 2 is: {getGradePoint(courselettergrade2)}");
 
  courselettergrade3=str(input("Enter your course 3 letter grade: "));
  coursecredit3=float(input("Enter your course 3 credit: "));
- print(f"Grade point for course 3 is: {getGradePoint(courselettergrade3)}.");
+ print(f"Grade point for course 3 is: {getGradePoint(courselettergrade3)}");
 
  gradepoint1 = getGradePoint(courselettergrade1)
  gradepoint2 = getGradePoint(courselettergrade2)
